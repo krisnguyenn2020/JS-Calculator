@@ -6,9 +6,9 @@ let buttons = Array.from(document.getElementsByClassName('button'));
 
 buttons.map( button => {
             button.addEventListener('click',  (e) => {
-                        console.log('clicked');
-                        console.log(e.target);
-                        console.log(e.target.innerText);
+                        // console.log('clicked');
+                        // console.log(e.target);
+                        // console.log(e.target.innerText);
                         switch(e.target.innerText) {
                                     case('C'):
                                                 display.innerText ="";
